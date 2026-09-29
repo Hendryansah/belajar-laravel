@@ -14,10 +14,10 @@
 
     <ul>
         @foreach($books as $book)
-            <li>
-                <a href="/books/{{ $book['id'] }}">{{ $book['title'] }}</a> 
-                (Penulis: {{ $book['author'] }}, Tahun: {{ $book['year'] }})
-            </li>
+                <h3>{{ $book->title }}</h3>
+                <P>penulis: {{ $book->author }}</P>
+                <P>Tahun: {{ $book->year }}</P>
+                <P>Stok: {{ $book->stock }}</P>
         @endforeach
     </ul>
 @endsection
