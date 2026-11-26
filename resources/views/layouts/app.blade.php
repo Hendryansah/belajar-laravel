@@ -39,7 +39,7 @@
     </main>
 
     <footer style="margin-top: 40px; border-top: 1px solid #ddd; padding-top: 15px; font-size: 13px; color: #777;">
-        <p>ilhamhendryansah &copy; {{ date('Y') }} — Praktikum Web Framework</p>
+        <p>ilhamhendryansah &copy; {{ date('Y') }} 2026</p>
     </footer>
 </body>
 </html>
